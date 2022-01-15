@@ -36,17 +36,14 @@ nav ul li {
   margin: 0 5px;
 }
 .btn {
-  border: 0;
-  display: flex;
-  padding: 15px 24px;
-  position: absolute;
-  width: 170px;
-  height: 44px;
-  background: #e02c6d;
-  border-radius: 41px;
+  text-decoration: none;
+  background-color: #e02c6d;
   color: white;
-  font-size: 16px;
-  align-content: space-between;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 400px;
+  display: inline-block;
+  margin-top: 15px;
 }
 .content {
   padding: 0 0 5% 0;
@@ -60,8 +57,13 @@ nav ul li {
   width: 582px;
 }
 .imagebox {
-  padding-top: 5%;
-  width: 600px;
+  background-image: url(../images/Circle-design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.imagebox:hover {
+  transform: rotate(60deg) matrix(1, -0.3, 0, 1, 0, 0);
+  transition: 1.5s ease;
 }
 main {
   display: flex;
@@ -95,13 +97,9 @@ main {
   width: 327px;
   height: 256px;
 }
-.more-btn {
-  border: 0;
-  width: 170px;
-  height: 44px;
+.container h4 {
   color: #e02c6d;
-  font-size: 16px;
-  background: transparent;
+  text-align: right;
 }
 /* Extra Section */
 .courses {

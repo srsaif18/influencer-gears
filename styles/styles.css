@@ -1,0 +1,158 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap");
+
+/* Base Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+header {
+  padding: 0% 5%;
+  display: flex;
+}
+/* Navigation Menu */
+.nav-menu {
+  padding: 0% 5%;
+  margin: 50px 0px;
+  box-sizing: border-box;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3a3a3a;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  /* line-height: 80px; */
+  margin: 0 5px;
+}
+.content {
+  padding: 0 0 5% 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textbox {
+  width: 582px;
+}
+.imagebox {
+  padding-top: 5%;
+  width: 600px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 1047px;
+  padding: 30px;
+}
+
+/* Top Collection Style */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+}
+.top-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.products {
+  display: grid;
+}
+.products img {
+  width: 300px;
+  height: 256px;
+}
+/* Extra Section */
+.top-players {
+  display: grid;
+  grid-gap: 30px;
+  margin-top: 20px;
+  place-items: center;
+}
+.top-players {
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 5%;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  height: 150px;
+  margin-right: 20px;
+}
+#extra-text {
+  padding: 0 5%;
+  margin-top: -35px;
+  color: #e02c6d;
+  padding-bottom: 5%;
+}
+/* Footer Styles */
+footer {
+  padding-top: 30px;
+  height: 239px;
+  left: 0px;
+  top: 3067px;
+  background: #0a0826;
+  text-align: center;
+  color: #ffffff;
+}
+.fa-instagram {
+  content: "\f003";
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.fa-youtube {
+  content: "\f003";
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.fa-twitter {
+  content: "\f003";
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.fa-facebook {
+  content: "\f003";
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+#footer-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+#copyright {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}

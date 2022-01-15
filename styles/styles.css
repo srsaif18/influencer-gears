@@ -83,33 +83,14 @@ main {
   height: 256px;
 }
 /* Extra Section */
-.top-players,
-.blogs,
 .courses {
   display: grid;
   grid-gap: 30px;
   margin-top: 20px;
   place-items: center;
 }
-.top-players,
 .courses {
   grid-template-columns: repeat(3, 1fr);
-}
-.blogs {
-  grid-template-columns: repeat(2, 1fr);
-}
-.player,
-.blog {
-  display: flex;
-  align-items: center;
-}
-.player img {
-  height: 50px;
-  margin-right: 20px;
-}
-.thumbnail img {
-  width: 200px;
-  margin-right: 20px;
 }
 .filled {
   color: goldenrod;

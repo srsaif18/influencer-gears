@@ -70,36 +70,65 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .products {
+  padding: 10px;
+  margin: 10px;
   display: grid;
+  box-shadow: 1px 1px 10px 1px #888888;
+  width: 329px;
+  height: 500px;
+  border-radius: 1%;
 }
 .products img {
-  width: 300px;
+  width: 327px;
   height: 256px;
 }
 /* Extra Section */
-.top-players {
+.top-players,
+.blogs,
+.courses {
   display: grid;
   grid-gap: 30px;
   margin-top: 20px;
   place-items: center;
 }
-.top-players {
+.top-players,
+.courses {
   grid-template-columns: repeat(3, 1fr);
-  padding-bottom: 5%;
 }
-.player {
+.blogs {
+  grid-template-columns: repeat(2, 1fr);
+}
+.player,
+.blog {
   display: flex;
   align-items: center;
 }
 .player img {
-  height: 150px;
+  height: 50px;
   margin-right: 20px;
 }
-#extra-text {
-  padding: 0 5%;
-  margin-top: -35px;
-  color: #e02c6d;
+.thumbnail img {
+  width: 200px;
+  margin-right: 20px;
+}
+.filled {
+  color: goldenrod;
+  font-size: 0.8em;
+}
+.unfilled {
+  color: lightgray;
+  font-size: 0.8em;
+}
+.course img {
+  width: 500px;
+  height: 350px;
+}
+.course-info {
+  display: flex;
   padding-bottom: 5%;
+}
+.ratings {
+  padding-right: 15px;
 }
 /* Footer Styles */
 footer {
